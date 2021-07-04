@@ -1,0 +1,125 @@
+    1  clear
+    2  git log
+    3  git log --prety==oneline
+    4  clear
+    5  git log
+    6  git log --pretty=oneline
+    7  gjjgjgjclear
+    8  gjjgjgjclearclear
+    9  clear
+   10  clear
+   11  git log
+   12  git log --pretty=oneline
+   13  git log --stat
+   14  git log -p
+   15  git log --pretty=oneline -2
+   16  git log --pretty=oneline -3
+   17  git log --pretty=oneline -4
+   18  git log --since=2.minutes
+   19  git log --author='glaudis munoz'
+   20  git status
+   21  touch teste
+   22  git add teste
+   23  git status
+   24  git commit -m 'commit de teste'
+   25  git commit -m 'commit de teste'
+   26  git config --global user.'munozglau@gmail.com'
+   27  git config --global user.'glaudis munoz'
+   28  git commit -m 'commit de teste'
+   29  clear
+   30  git çog
+   31  git log
+   32  git log --pretty=oneline
+   33  clear
+   34  history
+   35  clear
+   36  git config --global user.name 'glaudis munoz'
+   37  clear
+   38  clear
+   39  git branch
+   40  git checkout -b feature
+   41  git branch
+   42  touch Nova_Feature
+   43  git status
+   44  git add Nova_Feature
+   45  git commit -m 'Adicionando nova feature'
+   46  git log
+   47  git checkout master
+   48  git status
+   49  git log
+   50  touch continuando_master
+   51  git add continuando_master
+   52  git commit -m 'Adicionado continuacao na master'
+   53  git log
+   54  git checkout feature
+   55  git log
+   56  git checkout -b feature2 master
+   57  git log
+   58  git checkout -d feature2
+   59  git checkout feature2
+   60  git log
+   61  git branch -d feature2
+   62  git checkout master
+   63  git branch -d feature2
+   64  git log
+   65  git checkout feature2
+   66  git checkout feature
+   67  git log --pretty=oneline --graph
+   68  git merge master
+   69  history
+   70  git merge master
+   71  clear
+   72  clear
+   73  git branch
+   74  git checkout -b feature
+   75  ls
+   76  history
+   77  clear
+   78  clear
+   79  git checkout master
+   80  clear
+   81  git desktop/
+   82  cd desktop/
+   83  cd Curso_Git/
+   84  git branch
+   85  git log
+   86  cd desktop/
+   87  cd Curso_Git/
+   88  git checkout feature
+   89  git log --pretty=oneline --graph
+   90  history
+   91  clear
+   92  git config --global user.name 'glaudis munoz'
+   93  git config --global user.email 'munozglau@gmail.com'
+   94  git config user.name
+   95  cd desktop/
+   96  mkdir Curso_Git
+   97  cd Curso_Git/
+   98  git config user.name
+   99  git init
+  100  git status
+  101  echo '#Aprendendo usar o Git' > readme.md
+  102  git status
+  103  git add readme.md
+  104  git status
+  105  git commit -m 'commit inicial'
+  106  git status
+  107  echo '##Aula 1' >> readme.md
+  108  git status
+  109  echo 'glaudis munoz' > participantes.txt
+  110  git status
+  111  git add .
+  112  git status
+  113  git restore --staged participantes.txt
+  114  git status
+  115  git add participantes.txt
+  116  git status
+  117  git restore --staged .
+  118  git status
+  119  git commit -am 'alteracão no readme'
+  120  git status
+  121  git add participantes.txt
+  122  git status
+  123  git commit -m 'Adicionado participantes.txt'
+  124  history > Aula _3.txt
+  125  history > Aula_3.txt
