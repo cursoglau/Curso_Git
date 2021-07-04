@@ -1,0 +1,17 @@
+    1  clear
+    2  git config --global alias.logpg 'log --pretty=oneline --graph'
+    3  git logpg
+    4  git alias.CAM 'commit -am'
+    5  git config alias.CAM 'commit -am'
+    6  git CAM
+    7  git CAM
+    8  git config alias.CAM 'commit -am'
+    9  git CAM
+   10  git tag
+   11  git tat -a v0.1 -m 'Ate a Aula 5'
+   12  git tag -a v0.1 -m 'Ate a Aula 5'
+   13  git logpg
+   14  git checkout master
+   15  git rebase feature
+   16  git logpg
+   17  history > Aula_6.txt
